@@ -1,0 +1,9 @@
+.ipynb_checkpoints
+_temp
+*.pdf
+*.txt
+*.html
+*.csv
+*.xls
+*.xlsx
+!requirements.txt
