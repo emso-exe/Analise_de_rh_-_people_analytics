@@ -23,6 +23,7 @@ def gerar_metadados(dataframe):
         '% de nulos': round((dataframe.isnull().sum()/len(dataframe))*100, 2),
         'Cardinalidade': dataframe.nunique(),
     })
+    metadados = metadados.sort_values(by='Qtde de nulos', ascending=False)
     metadados = metadados.reset_index(drop=True)
     return metadados
 
