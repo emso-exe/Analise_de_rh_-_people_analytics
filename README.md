@@ -4,7 +4,7 @@ Este projeto utiliza dados disponibilizados no [Kaggle](https://www.kaggle.com/d
 
 Será empregada a metodologia CRISP-DM, e um modelo preditivo será desenvolvido para identificar os grupos mais propensos ao desligamento, oferecendo insights e sugerindo soluções para os problemas identificados. O foco é reduzir a saída de colaboradores e aprimorar a retenção de talentos.
 
-## Contexto do problema
+## 🚨 Contexto do problema
 
 A _RetaiX_, com uma equipe de aproximadamente **4000 funcionários**, enfrenta uma alta **rotatividade anual de cerca de 15%**. Essa taxa de saída, seja por vontade própria ou demissão, é considerada prejudicial pela gestão, devido a:
 
@@ -19,16 +19,9 @@ A _RetaiX_, com uma equipe de aproximadamente **4000 funcionários**, enfrenta u
 - Calcular a probabilidade de um funcionário deixar a empresa e identificar as variáveis que mais contribuem para esse aumento;
 - Elaborar um relatório com as conclusões para que o gestor de RH possa tomar medidas para reduzir a rotatividade.
 
-## 📋 Tópicos da análise
-
--
--
--
--
-
 ## 📃 Compreensão dos dados
 
-Os dados que serão utilizados no Projeto de Análise de Recursos Humanos - People Analytics.
+Os dados disponíveis incluem quatro arquivos em formato _CSV_ e um arquivo _Excel_ com o dicionário de dados. Para o projeto de análise de recursos humanos (People Analytics), serão utilizados três arquivos que refletem os dados dos funcionários, suas percepções sobre o trabalho e seu impacto em suas vidas, além da avaliação de gestores. Esses dados foram extraídos do dataset publicado no [Kaggle](https://www.kaggle.com/datasets/2e87aca9cfb969c5d6e89dbba2aba6d7b5a3cb769e43608a247859512197917d) sob o título "People Analytics aplicados a RH e CRM".
 
 ## 📓 Dicionário de dados
 
@@ -46,8 +39,8 @@ Os dados que serão utilizados no Projeto de Análise de Recursos Humanos - Peop
 | SatisfacaoComAmbiente        | Nível de Satisfação com o Ambiente de Trabalho | 1 'Baixo'<br>2 'Médio'<br>3 'Alto'<br>4 'Muito Alto' |
 | Genero                       | Gênero do funcionário | |
 | EnvolvimentoNoTrabalho       | Nível de Envolvimento no Trabalho | 1 'Baixo'<br>2 'Médio'<br>3 'Alto'<br>4 'Muito Alto' |
-| NivelDeCargo                 | Nível do cargo na empresa em uma escala de 1 a 5 | |
-| NomeFuncao                   | Nome da função na empresa | |
+|                   | Nível do cargo na empresa em uma escala de 1 a 5 | |
+|                   | Nome da função na empresa | |
 | SatisfacaoNoTrabalho         | Nível de Satisfação no Trabalho | 1 'Baixo'<br>2 'Médio'<br>3 'Alto'<br>4 'Muito Alto' |
 | EstadoCivil                  | Estado civil do funcionário | |
 | RendaMensal                  | Renda mensal em rúpias por mês | |
@@ -75,8 +68,6 @@ Os dados que serão utilizados no Projeto de Análise de Recursos Humanos - Peop
     - Biblioteca Seaborn
     - Biblioteca Numpy
     - Biblioteca Warnings
-    - Biblioteca PySpark
-    - Biblioteca Glob
 
 ## 💳 Créditos
 
