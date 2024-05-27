@@ -39,11 +39,16 @@ def grafico_bar_valores_nulos(dataframe):
     '''
     import matplotlib.pyplot as plt
     import missingno as msno
+    # Definindo as cores
+    colors = ['indianred' if dataframe[col].isnull().any(
+    ) else 'dodgerblue' for col in dataframe.columns]
+    # Criando o gráfico de barras
     plt.figure(figsize=(10, 5))
     ax = plt.subplot()
-    msno.bar(dataframe, color='dodgerblue', fontsize=8, ax=ax)
+    msno.bar(dataframe, color=colors, fontsize=8, ax=ax)
     plt.title('Visualização das variáveis com dados nulos/ausentes\n')
     plt.tight_layout()
+    plt.show()
 
 
 # Função para exibição dos valores únicos dos outliers
@@ -176,10 +181,10 @@ def graf_barplot(dataframe, x, y, title='Barplot da variável', hue=None, rotati
     plt.tight_layout()
     plt.subplots_adjust(wspace=0.15, hspace=0.2)
     plt.show()
-    
-    
+
+
 # Função para geração de gráfico countplot
-    
+
 def graf_lineplot(dataframe, x, y, title='Lineplot da variável', xlabel='Eixo X', ylabel='Eixo Y', hue=None, palette=palette):
     '''
     Função para gerar um gráfico de linhas.
@@ -200,7 +205,7 @@ def graf_lineplot(dataframe, x, y, title='Lineplot da variável', xlabel='Eixo X
         Nome da coluna usada para distinguir subcategorias no eixo x.
     :param palette: str, opcional
         Paleta de cores pré-definida.  
-	'''
+        '''
     import matplotlib.pyplot as plt
     import seaborn as sns
     # Plotar o gráfico
