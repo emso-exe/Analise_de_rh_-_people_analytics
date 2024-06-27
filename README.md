@@ -68,6 +68,7 @@ Os dados disponíveis incluem quatro arquivos em formato _CSV_ e um arquivo _Exc
     - Biblioteca Seaborn
     - Biblioteca Numpy
     - Biblioteca Warnings
+    - Biblioteca Scikit-learn
 
 ## 💳 Créditos
 
