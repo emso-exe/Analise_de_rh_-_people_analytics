@@ -6,7 +6,7 @@ Será empregada a metodologia CRISP-DM, e um modelo preditivo será desenvolvido
 
 ## 🚨 Contexto do problema
 
-A _RetaiX_, com uma equipe de aproximadamente **4000 funcionários**, enfrenta uma alta **rotatividade anual de cerca de 15%**. Essa taxa de saída, seja por vontade própria ou demissão, é considerada prejudicial pela gestão, devido a:
+A _RetailX_, com uma equipe de aproximadamente **4000 funcionários**, enfrenta uma alta **rotatividade anual de cerca de 15%**. Essa taxa de saída, seja por vontade própria ou demissão, é considerada prejudicial pela gestão, devido a:
 
 - Impacto negativo nos prazos, afetando a reputação da empresa perante consumidores e parceiros;
 - Necessidade de manter um departamento significativo para recrutamento;
@@ -68,7 +68,11 @@ Os dados disponíveis incluem quatro arquivos em formato _CSV_ e um arquivo _Exc
     - Biblioteca Seaborn
     - Biblioteca Numpy
     - Biblioteca Warnings
+    - Biblioteca PrettyTable
+    - Biblioteca Statsmodels
     - Biblioteca Scikit-learn
+    - Biblioteca XGBoost
+    - Biblioteca Category Encoders
 
 ## 💳 Créditos
 
